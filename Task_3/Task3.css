@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+         
 }
 
 #input {
@@ -11,6 +12,7 @@
     height: 30px;
     font-size: 20px;
     text-align: center;
+  
 }
 
 #button {
@@ -27,7 +29,11 @@
     justify-content: center;
     flex-wrap: wrap;
     min-width: 200px
-}
+   }
+
+#button:hover, #button:active, #button:focus {          
+  transform: scale(1.2);    
+  }
 
 .picture_image {
     display: block;
